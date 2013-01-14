@@ -1,0 +1,302 @@
+Run options: 
+
+# Running tests:
+
+.....
+
+Finished tests in 0.128008s, 39.0601 tests/s, 179.6763 assertions/s.
+
+5 tests, 23 assertions, 0 failures, 0 errors, 0 skips
+Run options: 
+
+# Running tests:
+
+...E...#<Cart:0x3e926c8>
+E.EEEE...EEEE.#<Cart:0x416ab58>
+.
+
+Finished tests in 0.744043s, 29.5682 tests/s, 29.5682 assertions/s.
+
+  1) Error:
+test_should_get_index(CartsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  2) Error:
+test_should_create_line_item(LineItemsControllerTest):
+NoMethodError: undefined method `gsub' for nil:NilClass
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/object/to_query.rb:10:in `to_query'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/object/to_param.rb:52:in `block in to_param'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/object/to_param.rb:51:in `each'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/object/to_param.rb:51:in `collect'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/object/to_param.rb:51:in `to_param'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/http/url.rb:47:in `url_for'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:579:in `url_for'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/url_for.rb:148:in `url_for'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/routing/route_set.rb:202:in `store_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/testing/assertions/routing.rb:174:in `method_missing'
+    C:/Users/Admin2/RubymineProjects/Depot/test/functional/line_items_controller_test.rb:24:in `block in <class:LineItemsControllerTest>'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/testing/setup_and_teardown.rb:35:in `block in run'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:469:in `_run__831579719__setup__648574879__callbacks'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/testing/setup_and_teardown.rb:34:in `run'
+
+  3) Error:
+test_should_get_edit(LineItemsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  4) Error:
+test_should_get_index(LineItemsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  5) Error:
+test_should_get_new(LineItemsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  6) Error:
+test_should_show_line_item(LineItemsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  7) Error:
+test_should_get_edit(ProductsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  8) Error:
+test_should_get_index(ProductsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+  9) Error:
+test_should_get_new(ProductsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+ 10) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: 'nil' is not an ActiveModel-compatible object that returns a valid partial path.
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:377:in `partial_path'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:287:in `setup'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/partial_renderer.rb:221:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+    C:/Users/Admin2/RubymineProjects/Depot/app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb___1066904903_32724360'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:143:in `block in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `block in instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/notifications.rb:123:in `instrument'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/template.rb:141:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:53:in `render_with_layout'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/template_renderer.rb:12:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:36:in `render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_view/renderer/renderer.rb:17:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:109:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/abstract_controller/rendering.rb:88:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/rendering.rb:16:in `render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+    C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.1/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+
+22 tests, 22 assertions, 0 failures, 10 errors, 0 skips
