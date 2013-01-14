@@ -1,5 +1,4 @@
 
-<!-- START:head -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +7,6 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tag %>
 </head>
-<!-- END:head -->
 <body class="<%= controller.controller_name %>">
   <div id="banner">
     <%= image_tag("logo.png") %>
@@ -16,7 +14,6 @@
   </div>
   <div id="columns">
     <div id="side">
-      <!-- START_HIGHLIGHT -->
       <div id="cart">
 
         <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
@@ -28,7 +25,6 @@
 
       </div>
 
-      <!-- END_HIGHLIGHT -->
       <ul>
         <li><a href="http://www....">Home</a></li>
         <li><a href="http://www..../faq">Questions</a></li>
